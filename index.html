@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY NEW YEAR</title>
+    <style>
+        .main {
+            width: 100%;
+            margin: 0%;
+            padding-left: 0%;
+
+        }
+
+        .main1 {
+            /* margin: 20%; */
+            height: 420px;
+            align-items: center;
+            width: 420px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 150px;
+            background-image: url(https://t3.ftcdn.net/jpg/01/27/54/24/360_F_127542471_E96ptboGbuy2hGaOa0Su5Kj3JuWqMOrR.jpg);
+            box-shadow: 4px 4px 10px 0 rgba(255, 255, 255, 0.705), -4px -4px 10px rgb(255, 255, 255), 4px 4px 10px 0 rgba(194, 145, 187, 0.527) inset, -4px -4px 10px rgb(231, 231, 231) inset;
+
+        }
+
+        #name {
+            font-weight: 900;
+            font-size: larger;
+            color: red;
+            font-size: 50px;
+            font-family: cursive;
+
+        }
+
+        #p{
+            color:rgb(255, 0, 85);
+           
+        }
+        .h1 {
+            padding: 10%;
+            font-size: larger;
+            font-family: Chalkduster, fantasy;
+            font-family: monospac;
+            background: -webkit-linear-gradient(#fd01be, #111111);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+    </style>
+</head>
+
+<body>
+    <DIV class="main" align="center">
+        <div class="main1" align="center">
+            <div class="h1">
+                <h1>HAPPY</h1>
+                <H1>NEW </H1>
+                <H1>YEAR</H1>
+                <!-- <p>&#128578; &#128578; &#128578;</p> -->
+                <h1 id="name"></h1>
+            </div>
+
+            <h2></h2>
+        </div>
+        <h1>
+            <marquee behavior="scroll" id="p"><span>&#128522;</span> "Cheers to the memories we've made and the moments yet to create. Happy
+                New Year! <span>&#128522;</span>"
+            </marquee>
+        </h1>
+    </DIV>
+</body>
+
+<script>
+    // let a=prompt("Enter Your Name ");
+    let username = prompt("enter your name :")
+    let h1 = document.getElementById("name");
+    h1.innerHTML = username;
+
+</script>
+
+</html>
